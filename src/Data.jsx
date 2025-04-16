@@ -13,6 +13,8 @@ import skillsImg8 from './assets/adobe-xd-logo.svg';
 import skillsImg9 from './assets/adobe-photoshop-logo.svg';
 import skillsImg10 from './assets/invision-logo.svg';
 
+
+import projectImg1 from './assets/project-1.jpg';
 import projectImg1 from './assets/project-1.jpg';
 import projectImg2 from './assets/project-2.jpg';
 import projectImg3 from './assets/project-3.jpg';
