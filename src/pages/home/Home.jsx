@@ -10,14 +10,13 @@ const Home = () => {
 
         <div className='home-content'>
           <h1 className='home-title'>
-            <span>I'm Malay Bhunia</span> <br /> Fullstack Developer
+            <span>I'm Malay Bhunia</span> <br /> Backend Developer
           </h1>
 
           <p className="home-description">
-            I am a Tunisian based web designer & front-end developer focused on
-            crafting clean & user-friendly experiences, I am passionate abou 
-            building excellent software that improves the lives of those around 
-            me.
+            My name is Malay Bhunia. I'm from Purba Medinipur. I'm studying my bachelor degree in Computer
+            Science & Engineering from Swami Vivekananda University,Barrackpure. My strength are I’m a hardworking,
+            self motivating person.
           </p>
           <Link to='/about' className='button'>
             More About Me

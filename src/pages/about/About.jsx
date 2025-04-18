@@ -46,7 +46,7 @@ const About = () => {
 
           <div className="skills-container grid">
             <div className="skills-group">
-              <h3 className="skills-title">Frontend Developer</h3>
+              <h3 className="skills-title">Languages & Framework</h3>
 
               <div className="skills-items grid">
                 {skill.map((val) => {
@@ -58,7 +58,7 @@ const About = () => {
             </div>
 
             <div className="skills-group">
-              <h3 className="skills-title">Backend Developer</h3>
+              <h3 className="skills-title">Databases & Tools</h3>
 
               <div className="skills-items grid">
                 {skill.map((val) => {

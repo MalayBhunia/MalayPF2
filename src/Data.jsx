@@ -3,18 +3,18 @@ import { RiBriefcase4Fill, RiGraduationCapFill } from 'react-icons/ri';
 
 import skillsImg1 from './assets/html-logo.svg';
 import skillsImg2 from './assets/css-logo.svg';
-import skillsImg3 from './assets/javascript-logo.svg';
-import skillsImg4 from './assets/react-logo.svg';
-import skillsImg5 from './assets/tailwind-css-logo.svg';
+import skillsImg3 from './assets/python.svg';
+import skillsImg4 from './assets/file-type-cpp3.svg';
+import skillsImg5 from './assets/icons8-c.svg';
 
-import skillsImg6 from './assets/figma-logo.svg';
-import skillsImg7 from './assets/sketch-logo.svg';
-import skillsImg8 from './assets/adobe-xd-logo.svg';
-import skillsImg9 from './assets/adobe-photoshop-logo.svg';
-import skillsImg10 from './assets/invision-logo.svg';
+import skillsImg6 from './assets/sql-database-generic.svg';
+import skillsImg7 from './assets/django.svg';
+import skillsImg8 from './assets/mysql-original-wordmark.svg';
+import skillsImg9 from './assets/mongodb-original-wordmark.svg';
+import skillsImg10 from './assets/icons8-git.svg';
+import skillsImg11 from './assets/vs-code.svg';
+import skillsImg12 from './assets/javascript-logo.svg';
 
-
-import projectImg1 from './assets/project-1.jpg';
 import projectImg1 from './assets/project-1.jpg';
 import projectImg2 from './assets/project-2.jpg';
 import projectImg3 from './assets/project-3.jpg';
@@ -43,7 +43,7 @@ export const links = [
     },
   
     {
-      name: 'Portfolio',
+      name: 'Projects',
       icon: <FaFolderOpen className='nav-icon' />,
       path: '/portfolio',
     },
@@ -131,10 +131,26 @@ export const stats = [
 
 export const skill = [
   {
-    id: 1,
-    img: skillsImg1,
-    title: 'HTML',
-    level: 'Basic',
+    id: 5,
+    img: skillsImg5,
+    title: 'C',
+    level: 'Advanced',
+    category: 'developer',
+  },
+
+  {
+    id: 4,
+    img: skillsImg4,
+    title: 'C++',
+    level: 'Advanced',
+    category: 'developer',
+  },
+  
+  {
+    id: 3,
+    img: skillsImg3,
+    title: 'Python',
+    level: 'Intermediate',
     category: 'developer',
   },
 
@@ -146,21 +162,20 @@ export const skill = [
     category: 'developer',
   },
 
-
   {
-    id: 5,
-    img: skillsImg6,
-    title: 'Python',
-    level: 'Intermediate',
-    category: 'designer',
+    id: 1,
+    img: skillsImg1,
+    title: 'HTML',
+    level: 'Basic',
+    category: 'developer',
   },
 
   {
     id: 6,
     img: skillsImg6,
-    title: 'C++',
-    level: 'Advanced',
-    category: 'designer',
+    title: 'SQL',
+    level: 'Intermediate',
+    category: 'developer',
   },
 
   {
@@ -168,7 +183,7 @@ export const skill = [
     img: skillsImg7,
     title: 'Django',
     level: 'Basic',
-    category: 'designer',
+    category: 'developer',
   },
 
   {
@@ -191,9 +206,18 @@ export const skill = [
     id: 10,
     img: skillsImg10,
     title: 'Git & Github',
-    level: 'Intermediate',
+    level: 'Basic',
     category: 'designer',
   },
+
+  {
+    id: 11,
+    img: skillsImg11,
+    title: 'VS Code',
+    level: 'Intermediate',
+    category: 'designer',
+  }
+
 ];
 
 export const resume = [
@@ -204,7 +228,7 @@ export const resume = [
     icon: <RiGraduationCapFill />,
     year: '2022 - PRESENT',
     title: 'B.Tech CSE Degree <span> Swami Vivekananda University </span>',
-    desc: 'First Year 75% Marks AND Second Year 73% Marks.'                                     
+    desc: 'First Year 75% Marks. AND Second Year 73% Marks.'                                     
   },
 
   {
@@ -241,7 +265,7 @@ export const portfolio = [
     title: 'Natural Language & Voice Calculator',
     description:
       'Short description of the project that was carried out in this portfolio.',
-    skills: [skillsImg4, skillsImg5],
+    skills: [skillsImg3],
     link: 'https://github.com/MalayBhunia/Smart_Calculator',
   },
 
@@ -251,7 +275,7 @@ export const portfolio = [
     title: 'Database Management System',
     description:
       'Short description of the project that was carried out in this portfolio.',
-    skills: [skillsImg6, skillsImg7],
+    skills: [skillsImg4],
     link: '',
   },
 
@@ -261,7 +285,7 @@ export const portfolio = [
     title: 'Voice Assistant',
     description:
       'Short description of the project that was carried out in this portfolio.',
-    skills: [skillsImg1, skillsImg2, skillsImg3],
+    skills: [skillsImg1, skillsImg2,skillsImg12,skillsImg3],
     link: 'https://github.com/MalayBhunia/Jarvis',
   },
 
@@ -271,7 +295,7 @@ export const portfolio = [
     title: 'PORTFOLIO',
     description:
       'Short description of the project that was carried out in this portfolio.',
-    skills: [skillsImg1, skillsImg2, skillsImg3],
+    skills: [skillsImg1, skillsImg2, skillsImg12],
     link: 'https://malaybhunia.github.io/Portfolio1/',
   },
 
@@ -281,7 +305,7 @@ export const portfolio = [
     title: 'Solar System',
     description:
       'Short description of the project that was carried out in this portfolio.',
-    skills: [skillsImg1, skillsImg2, skillsImg3],
+    skills: [skillsImg1, skillsImg2],
     link: 'https://malaybhunia.github.io/Solar-System/',
   },
 ];
