@@ -123,6 +123,7 @@ const Contact = () => {
                   name="name"
                   onChange={handleChange}
                   value={formData.name}
+                  autocomplete="off"
                   className="contact-form-input"
                 />
               </div>
@@ -136,7 +137,8 @@ const Contact = () => {
                   type="email" 
                   name="email"
                   onChange={handleChange}
-                  value={formData.email} 
+                  value={formData.email}
+                  autocomplete="off" 
                   className="contact-form-input" 
                 />
               </div>
@@ -152,6 +154,7 @@ const Contact = () => {
                   name="subject" 
                   onChange={handleChange}
                   value={formData.subject}
+                  autocomplete="off"
                   className="contact-form-input" 
                 />
             </div>
@@ -165,6 +168,7 @@ const Contact = () => {
                   name="message" 
                   onChange={handleChange}
                   value={formData.message}
+                  autocomplete="off"
                   className="contact-form-input contact-form-area"
                 ></textarea>
             </div>
