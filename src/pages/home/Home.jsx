@@ -14,8 +14,8 @@ const Home = () => {
           </h1>
 
           <p className="home-description">
-            My name is Malay Bhunia. I'm from Purba Medinipur. I'm studying my bachelor degree in Computer
-            Science & Engineering from Swami Vivekananda University,Barrackpure. My strength are I’m a hardworking,
+            I'm from Purba Medinipur. I'm studying my bachelor degree in Computer
+            Science & Engineering from Swami Vivekananda University, Barrackpure. My strength are I’m a hard working,
             self motivating person.
           </p>
           <Link to='/about' className='button'>

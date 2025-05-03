@@ -20,6 +20,7 @@ import projectImg2 from './assets/project-2.jpg';
 import projectImg3 from './assets/project-3.jpg';
 import projectImg4 from './assets/project-4.jpg';
 import projectImg5 from './assets/project-5.jpg';
+import projectImg6 from './assets/project-6.jpg';
 
 import Theme1 from './assets/red.png';
 import Theme2 from './assets/blueviolet.png';
@@ -262,9 +263,9 @@ export const portfolio = [
   {
     id: 1,
     img: projectImg1,
-    title: 'Natural Language & Voice Calculator',
+    title: 'Natural Lang. & Voice Calc.',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'Using PyAudio, SpeechRecognition and Pyttsx3 module. Performs the correspon ding 35+ mathematical operactions.',
     skills: [skillsImg3],
     link: 'https://github.com/MalayBhunia/Smart_Calculator',
   },
@@ -272,9 +273,9 @@ export const portfolio = [
   {
     id: 2,
     img: projectImg2,
-    title: 'Database Management System',
+    title: 'Basic Database System',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'Using STL and OOPs approach that covers the basic functionalities of Creating tables, Inserting, Updating and Deleting records.',
     skills: [skillsImg4],
     link: '',
   },
@@ -282,9 +283,9 @@ export const portfolio = [
   {
     id: 3,
     img: projectImg3,
-    title: 'Voice Assistant',
+    title: 'Desktop Assistant',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'The showcases Jarvis capabilities, including opening applications, searching information and sending WhatsApp messages. etc...',
     skills: [skillsImg1, skillsImg2,skillsImg12,skillsImg3],
     link: 'https://github.com/MalayBhunia/Jarvis',
   },
@@ -294,17 +295,27 @@ export const portfolio = [
     img: projectImg4,
     title: 'PORTFOLIO',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'A personal portfolio highlighting my skills, experience, and projects. Discover my works.',
+    skills: [skillsImg1, skillsImg2, skillsImg12],
+    link: 'https://malaybhunia.github.io/Portfolio/',
+  },
+
+  {
+    id: 5,
+    img: projectImg6,
+    title: 'PORTFOLIO_1',
+    description:
+      'Learning from past portfolio, My second portfolio reflects growth, improved skills, and a refined approach to digital solutions.',
     skills: [skillsImg1, skillsImg2, skillsImg12],
     link: 'https://malaybhunia.github.io/Portfolio1/',
   },
 
   {
-    id: 5,
+    id: 6,
     img: projectImg5,
     title: 'Solar System',
     description:
-      'Short description of the project that was carried out in this portfolio.',
+      'Explore space through an intuitive interface and discover fascinating facts about each planet.',
     skills: [skillsImg1, skillsImg2],
     link: 'https://malaybhunia.github.io/Solar-System/',
   },

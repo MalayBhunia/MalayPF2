@@ -16,7 +16,7 @@
 
 .home-title {
     font-size: var(--h2-font-size);
-    padding-left: 4.25rem;
+    padding-left: 4rem;
     position: relative;
 }
 
@@ -37,7 +37,7 @@
 
 .home-description {
     line-height: 1.75;
-    max-width: 600px;
+    max-width: 650px;
     margin-block: 1.5rem 2.5rem;
 }
 
