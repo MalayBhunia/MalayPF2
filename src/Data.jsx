@@ -21,6 +21,7 @@ import projectImg3 from './assets/project-3.jpg';
 import projectImg4 from './assets/project-4.jpg';
 import projectImg5 from './assets/project-5.jpg';
 import projectImg6 from './assets/project-6.jpg';
+import projectImg7 from './assets/project-7.avif';
 
 import Theme1 from './assets/red.png';
 import Theme2 from './assets/blueviolet.png';
@@ -318,6 +319,16 @@ export const portfolio = [
       'Explore space through an intuitive interface and discover fascinating facts about each planet.',
     skills: [skillsImg1, skillsImg2],
     link: 'https://malaybhunia.github.io/Solar-System/',
+  },
+
+  {
+    id: 7,
+    img: projectImg7,
+    title: 'User Authentication System Using SQL',
+    description:
+      'Python-based authentication system using SQL for user registration, login, and pass word recovery with secure password hashing and data management.',
+    skills: [skillsImg3, skillsImg6],
+    link: 'https://github.com/MalayBhunia/User-Authentication-System-',
   },
 ];
 
