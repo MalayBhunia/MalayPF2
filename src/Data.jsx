@@ -116,7 +116,7 @@ export const stats = [
   },
 
   {
-    no: '4+',
+    no: '5+',
     title: 'Completed <br /> Projects',
   },
 
@@ -230,7 +230,7 @@ export const resume = [
     icon: <RiGraduationCapFill />,
     year: '2022 - PRESENT',
     title: 'B.Tech CSE Degree <span> Swami Vivekananda University </span>',
-    desc: 'First Year 75% Marks. AND Second Year 73% Marks.'                                     
+    desc: 'First Year 75% Marks And Second Year 73% Marks.'                                     
   },
 
   {
