@@ -121,7 +121,7 @@ export const stats = [
   },
 
   {
-    no: '5+',
+    no: '4+',
     title: 'Happy <br /> Customers',
   },
 
