@@ -1,5 +1,5 @@
 import Info from "../../components/info";
-import Cv from '../../pdf/M.Bhunia-Cv.pdf';
+import Cv from '../../pdf/Malay_Cv.pdf';
 import { RiDownloadLine } from "react-icons/ri";
 import Stats from "../../components/Stats";
 import { skill } from "../../Data";
