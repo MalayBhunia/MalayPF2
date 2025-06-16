@@ -210,14 +210,17 @@ img{
     .nav-link {
         display: inline-flex;
         align-items: center;
-        column-gap: 1rem;
+        column-gap: 1.3rem;
         cursor: pointer;
     }
 
     .nav-name {
         color: var(--title-color);
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: var(--weight-600);
+    }
+    .nav-icon{
+       font-size: 1.3rem; 
     }
 
     .nav-link:hover {
@@ -450,6 +453,10 @@ img{
     .contact-icon::after {
         width: 28px;
     }
+
+    .nav-menu{
+       padding: 18rem 0 0 9rem; 
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -463,5 +470,9 @@ img{
 
     .resume-item {
         padding-left: 2.5rem;
+    }
+
+    .nav-menu{
+       padding: 18rem 0 0 8rem; 
     }
 }

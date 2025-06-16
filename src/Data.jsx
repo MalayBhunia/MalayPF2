@@ -75,7 +75,7 @@ export const personalInfo = [
 
   {
     title: 'Age : ',
-    description: '20 Years',
+    description: '21 Years',
   },
 
   {
@@ -228,9 +228,9 @@ export const resume = [
     id: 1,
     category: 'education',
     icon: <RiGraduationCapFill />,
-    year: '2022 - PRESENT',
-    title: 'B.Tech CSE Degree <span> Swami Vivekananda University </span>',
-    desc: 'First Year 75% Marks And Second Year 73% Marks.'                                     
+    year: '2014 - 2020',
+    title: 'Secondary Exam. <span> Brajakishorepur D. G. High School </span>',
+    desc: 'Secured 52% Marks.',                                     
   },
 
   {
@@ -246,9 +246,9 @@ export const resume = [
     id: 3,
     category: 'education',
     icon: <RiGraduationCapFill />,
-    year: '2014 - 2020',
-    title: 'Secondary Exam. <span> Brajakishorepur D. G. High School </span>',
-    desc: 'Secured 52% Marks.',
+    year: '2022 - PRESENT',
+    title: 'B.Tech CSE Degree <span> Swami Vivekananda University </span>',
+    desc: 'First Year 75% Marks And Second Year 73% Marks.'
   },
 
   {
