@@ -189,7 +189,7 @@ img{
         background-color: var(--container-color);
         width: 100%;
         height: 100%;
-        padding: 5rem 0 0 3rem;
+        padding: 7rem 0 0 5rem;
         z-index: 1000;
         transition: right 0.3s ease;
     }
@@ -455,7 +455,7 @@ img{
     }
 
     .nav-menu{
-       padding: 18rem 0 0 9rem; 
+       padding: 13rem 0 0 8rem; 
     }
 }
 
@@ -473,6 +473,6 @@ img{
     }
 
     .nav-menu{
-       padding: 18rem 0 0 8rem; 
+        padding: 7rem 0 0 5rem;
     }
 }
