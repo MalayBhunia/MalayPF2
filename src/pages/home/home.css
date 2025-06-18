@@ -5,7 +5,9 @@
     padding: 2.5rem;
     min-height: 100vh;
 }
-
+.home-content{
+    padding-top: 3.7rem;
+}
 .home-img {
     height: calc(100vh - 5rem);
     width: 100%;
@@ -50,3 +52,22 @@
     top: -12%;
     left: -12%;
 }
+
+.home__socials{
+    position: relative;
+    display: flex;
+    column-gap: 1.95rem;
+    padding-left: 1rem;
+    margin: 1rem 0;
+}
+
+.home__social-link{
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.home__social-link:hover{
+    color: var(--first-color);
+}
+
+

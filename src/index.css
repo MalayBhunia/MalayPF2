@@ -263,6 +263,10 @@ img{
         font-size: 1.5rem;
     }
 
+    .home__socials{
+        padding-left: 0.7rem;
+    }
+
     .home-container {
         grid-template-columns: 5fr 7fr;
         padding: 1.5rem;
@@ -321,7 +325,8 @@ img{
         width: 220px;
         height: 220px;
         border-radius: 50%;
-        margin-top: auto;
+        margin-top: 1.5rem;
+        margin-bottom: -3.8rem;
     }
 
     .home-img,
@@ -331,10 +336,10 @@ img{
 
     .home-content {
         text-align: center;
-        margin-bottom: auto;
+        margin-bottom: -1rem;
     }
 
-    .home-title {
+    .home-title{
         padding-left: 0;
     }
 
@@ -362,6 +367,7 @@ img{
     .about-container,
     .resume-container,
     .stats,
+    .home__socials,
     .skills-container,
     .portfolio-container,
     .contact-container {
@@ -382,7 +388,8 @@ img{
         gap: 1rem;
     }
 
-    .stats-title{
+    .stats-title,
+    .home__socials{
         padding-left: 0;
     }
 
@@ -455,7 +462,7 @@ img{
     }
 
     .nav-menu{
-       padding: 13rem 0 0 8rem; 
+       padding: 15rem 0 0 8.5rem; 
     }
 }
 
